@@ -3,7 +3,7 @@ name: Daily Telegram Exercise Message
 on:
   schedule:
     # Exécute à 11h00 UTC tous les jours (ajustez selon votre fuseau horaire)
-    - cron: '0 11 * * *'
+    - cron: '0 08 * * *'
   workflow_dispatch: # Permet aussi l'exécution manuelle
 
 jobs:
